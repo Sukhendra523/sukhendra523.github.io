@@ -9,6 +9,7 @@ import Skills from "./components/Sections/Skills";
 import Experience from "./components/Sections/Experience";
 import Projects from "./components/Sections/Projects";
 import Education from "./components/Sections/Education";
+import Contact from "./components/Sections/Contact";
 const AppWrapper = styled.div`
   background: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
@@ -47,6 +48,7 @@ function App() {
             <Projects openModal={openModal} setOpenModal={setOpenModal} />
             <SectionWrapper>
               <Education />
+              <Contact />
             </SectionWrapper>
           </BodyWrapper>
         </BrowserRouter>
