@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sukhendra.rajawat/static/css/main.d88627c5.css",
+    "main.js": "/sukhendra.rajawat/static/js/main.f5d25920.js",
+    "static/media/Sukhendra.jpg": "/sukhendra.rajawat/static/media/Sukhendra.5b0389c75d1fe2a990d4.jpg",
+    "index.html": "/sukhendra.rajawat/index.html",
+    "main.d88627c5.css.map": "/sukhendra.rajawat/static/css/main.d88627c5.css.map",
+    "main.f5d25920.js.map": "/sukhendra.rajawat/static/js/main.f5d25920.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d88627c5.css",
+    "static/js/main.f5d25920.js"
+  ]
+}
