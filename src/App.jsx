@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import BodyWrapper from "./components/BodyWrapper";
 import BannerSection from "./components/Sections/BannerSection";
 import Skills from "./components/Sections/Skills";
+import Experience from "./components/Sections/Experience";
 const AppWrapper = styled.div`
   background: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
@@ -37,6 +38,7 @@ function App() {
             <BannerSection />
             <SectionWrapper>
               <Skills />
+              <Experience />
             </SectionWrapper>
           </BodyWrapper>
         </BrowserRouter>
