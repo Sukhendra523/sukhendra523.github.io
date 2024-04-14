@@ -4,6 +4,7 @@ import styled, { ThemeProvider } from "styled-components";
 import { darkTheme } from "./utils/Themes";
 import NavBar from "./components/NavBar";
 import BodyWrapper from "./components/BodyWrapper";
+import BannerSection from "./components/Sections/BannerSection";
 const AppWrapper = styled.div`
   background: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
@@ -16,6 +17,7 @@ function App() {
         <BrowserRouter>
           <NavBar />
           <BodyWrapper>
+            <BannerSection />
           </BodyWrapper>
         </BrowserRouter>
       </AppWrapper>
