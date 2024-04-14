@@ -8,6 +8,7 @@ import BannerSection from "./components/Sections/BannerSection";
 import Skills from "./components/Sections/Skills";
 import Experience from "./components/Sections/Experience";
 import Projects from "./components/Sections/Projects";
+import Education from "./components/Sections/Education";
 const AppWrapper = styled.div`
   background: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
@@ -44,6 +45,9 @@ function App() {
               <Experience />
             </SectionWrapper>
             <Projects openModal={openModal} setOpenModal={setOpenModal} />
+            <SectionWrapper>
+              <Education />
+            </SectionWrapper>
           </BodyWrapper>
         </BrowserRouter>
       </AppWrapper>
