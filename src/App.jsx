@@ -7,6 +7,7 @@ import BodyWrapper from "./components/BodyWrapper";
 import BannerSection from "./components/Sections/BannerSection";
 import Skills from "./components/Sections/Skills";
 import Experience from "./components/Sections/Experience";
+import Projects from "./components/Sections/Projects";
 const AppWrapper = styled.div`
   background: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
@@ -29,6 +30,8 @@ const SectionWrapper = styled.div`
 `;
 
 function App() {
+  const [openModal, setOpenModal] = useState({ state: false, project: null });
+
   return (
     <ThemeProvider theme={darkTheme}>
       <AppWrapper>
@@ -40,6 +43,7 @@ function App() {
               <Skills />
               <Experience />
             </SectionWrapper>
+            <Projects openModal={openModal} setOpenModal={setOpenModal} />
           </BodyWrapper>
         </BrowserRouter>
       </AppWrapper>
