@@ -6,6 +6,8 @@ import LeftContainer from "./LeftContainer";
 import HeroBgAnimation from "../../HeroBgAnimation";
 import { motion } from "framer-motion";
 import { headContainerAnimation } from "../../../utils/motion";
+import StarCanvas from "../../canvas/Stars";
+
 
 const BannerSectionWrapper = styled.div`
   display: flex;
@@ -66,6 +68,7 @@ const BannerSection = () => {
   return (
     <BannerSectionWrapper id="About"> 
       <HeroBg>
+        <StarCanvas />
         <HeroBgAnimation />
       </HeroBg>
       <motion.div {...headContainerAnimation}>
