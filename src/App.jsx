@@ -11,6 +11,8 @@ import Projects from "./components/Sections/Projects";
 import Education from "./components/Sections/Education";
 import Contact from "./components/Sections/Contact";
 import Footer from "./components/Sections/Footer";
+import ProgressScrollButton from "./components/ProgressScrollButton";
+
 const AppWrapper = styled.div`
   background: ${({ theme }) => theme.bg};
   color: ${({ theme }) => theme.text_primary};
@@ -52,6 +54,8 @@ function App() {
               <Contact />
             </SectionWrapper>
             <Footer />
+            <ProgressScrollButton/>
+            
           </BodyWrapper>
         </BrowserRouter>
       </AppWrapper>
