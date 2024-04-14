@@ -103,6 +103,7 @@ const ContactButton = styled.input`
   text-decoration: none;
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
+  cursor: ${({isSending})=>isSending?'progress':'pointer'};
   background: linear-gradient(
     225deg,
     hsla(271, 100%, 50%, 1) 0%,
@@ -154,7 +155,6 @@ const Contact = () => {
             theme: "light",
           });
           form.current?.reset();
-          console.log("SUCCESS!",process.env.REACT_APP_EMAILJS_PUBLIC_KEY,process.env.REACT_APP_EMAILJS_TEMPLATE_ID, process.env.EMAILJS_SERVICE_ID);
           setIsSending(false);
         },
         (error) => {
@@ -170,7 +170,6 @@ const Contact = () => {
             progress: undefined,
             theme: "light",
           });
-          console.log("FAILED...", error.text, process.env.REACT_APP_EMAILJS_PUBLIC_KEY,process.env.REACT_APP_EMAILJS_TEMPLATE_ID, process.env.REACT_APP_EMAILJS_SERVICE_ID);
           setIsSending(false);
         }
       );
@@ -186,13 +185,15 @@ const Contact = () => {
         </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
+          <ContactInput placeholder="Your Email" name="from_email" required type="email"/>
+          <ContactInput placeholder="Your Name" name="from_name" required type="text"/>
+          <ContactInput placeholder="Subject" name="subject" required   type="text"/>
+          <ContactInputMessage placeholder="Message" name="message" rows={4} required />
           <ContactButton
             type="submit"
             value={isSending ? "...Sending" : "Send"}
+            isSending={isSending}
+            disabled={isSending}
           />
         </ContactForm>
         <ToastContainer
