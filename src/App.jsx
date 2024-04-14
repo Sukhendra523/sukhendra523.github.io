@@ -15,6 +15,8 @@ function App() {
       <AppWrapper>
         <BrowserRouter>
           <NavBar />
+          <BodyWrapper>
+          </BodyWrapper>
         </BrowserRouter>
       </AppWrapper>
     </ThemeProvider>
