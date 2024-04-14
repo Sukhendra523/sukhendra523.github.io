@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
+import EarthCanvas from "../canvas/Earth";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -178,6 +179,7 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
+        <EarthCanvas />
         <Title>Contact</Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
