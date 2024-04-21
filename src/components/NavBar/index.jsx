@@ -11,6 +11,10 @@ const Nav = styled.div`
   display: flex;
   justify-content: center;
   background: ${({ theme }) => theme.bg};
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  padding: 0 1rem;
 `;
 
 
@@ -23,7 +27,7 @@ const NavLogo = styled(Link)`
 `;
 
 const NavContainer = styled.div`
-  width: 1200px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   height: 80px;
