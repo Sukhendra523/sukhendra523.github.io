@@ -145,7 +145,7 @@ const Contact = () => {
       .then(
         (result) => {
           toast.success("Your Email has sent Successfully!", {
-            position: "top-center",
+            position: "bottom-center",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -161,7 +161,7 @@ const Contact = () => {
           toast.error(`Sorry 😕 Something went wrong please try again!
           ErrorMessage: ${error.text}
           `, {
-            position: "top-center",
+            position: "bottom-center",
             autoClose: 5000,
             hideProgressBar: false,
             closeOnClick: true,
@@ -197,7 +197,7 @@ const Contact = () => {
           />
         </ContactForm>
         <ToastContainer
-          position="top-center"
+          position="bottom-center"
           autoClose={5000}
           hideProgressBar={false}
           newestOnTop={false}
