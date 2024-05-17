@@ -48,7 +48,7 @@ const RightContainer = () => {
     <RightContainerDiv>
         <motion.div {...headContentAnimation}>
              <Tilt>
-            <Img src={HeroImg} alt="Rishav Chanda" />
+            <Img src={HeroImg} alt="Sukhendra Rajawat" />
         </Tilt>
         </motion.div>
        
