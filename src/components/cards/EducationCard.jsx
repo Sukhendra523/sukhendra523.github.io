@@ -108,10 +108,11 @@ const EducationCard = ({ education }) => {
           <Date>{education.date}</Date>
         </Body>
       </Top>
-      <Grade>
+      {/* To DO Later */}
+      {/* <Grade>
         <b>Grade :</b>
         {education.grade}
-      </Grade>
+      </Grade> */}
       <Description>
         <Span>{education.desc}</Span>
       </Description>
