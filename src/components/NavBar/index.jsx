@@ -24,6 +24,9 @@ const NavLogo = styled(Link)`
   padding: 0px 6px;
   font-weight: 500;
   font-size: 2rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 const NavContainer = styled.div`

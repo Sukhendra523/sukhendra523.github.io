@@ -20,6 +20,10 @@ import GitHubButtonContainer from "./GitHubButtonContainer";
 
 const NavMenuList = styled.ul`
   display: flex;
+  justify-content: center;
+  @media only screen and (max-width: 768px) {
+    flex-wrap: wrap;
+  }
   gap: 32px;
   a {
     text-decoration: none;
