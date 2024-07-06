@@ -116,10 +116,17 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "web app"}
-            onClick={() => setToggle("web app")}
+            active={toggle === "react-app"}
+            onClick={() => setToggle("react-app")}
           >
-            WEB APP"S
+            React App
+          </ToggleButton>
+          <Divider />
+          <ToggleButton
+            active={toggle === "ui-clone"}
+            onClick={() => setToggle("ui-clone")}
+          >
+            UI Clone
           </ToggleButton>
           <Divider />
           <ToggleButton
@@ -129,12 +136,6 @@ const Projects = ({ openModal, setOpenModal }) => {
             ANDROID APP'S
           </ToggleButton>
           <Divider />
-          <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
-          >
-            MACHINE LEARNING
-          </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&

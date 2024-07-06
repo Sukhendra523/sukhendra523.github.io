@@ -169,7 +169,7 @@ export const education = [
 
 export const projects = [
   {
-    id: 11,
+    id: 0,
     title: "Advance Tic-Tac-Toe Game",
     date: "Jan 2024 - Feb 2024",
     description:
@@ -180,12 +180,12 @@ export const projects = [
       "React Hooks", 
       "Custom Hooks"
     ],
-    category: "web app",
+    category: "react-app",
     github: "https://github.com/Sukhendra523/advance-tic-tac-toe",
     webapp: "https://sukhendra523.github.io/advance-tic-tac-toe",
   },
   {
-    id: 9,
+    id: 1,
     title: "Draggable Task Manger",
     date: "Jun 2023 - Jul 2023",
     description:
@@ -195,12 +195,12 @@ export const projects = [
     tags: [
       "React Hooks", "HTML5", "Drag-Drop API", "Context API"
     ],
-    category: "web app",
+    category: "react-app",
     github: "https://github.com/Sukhendra523/draggable-task-manager",
     webapp: "https://sukhendra523.github.io/draggable-task-manager/",
   },
   {
-    id: 0,
+    id: 2,
     title: "Draggable Sticky Notes",
     date: "Apr 2023 - May 2023",
     description:
@@ -208,8 +208,47 @@ export const projects = [
     image:
       "https://iili.io/d9cSiNI.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
+    category: "react-app",
     github: "https://github.com/Sukhendra523/draggable-sticky-notes",
     webapp: "https://sukhendra523.github.io/draggable-sticky-notes",
+  },
+  {
+    id: 3,
+    title: "Video Conference",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Video Conference App using React Hook, Custom Hook, and Jitsi Meet Lib.",
+    image:
+      "https://i.ibb.co/CtrSBrD/React-App.png",
+    tags: ['React', 'Hook', 'Custom Hook',  'Jitsi Meet Lib'],
+    category: "react-app",
+    github: "https://github.com/Sukhendra523/video-conference-app",
+    webapp: "https://codesandbox.io/p/sandbox/github/Sukhendra523/video-conference-app/tree/master/",
+  },
+  {
+    id: 4,
+    title: "Google UI Clone",
+    date: "Jul 2023 - Aug 2023",
+    description:
+    'Google UI Clone using React Hook, Context API, and Google Custom Search API',
+    image:
+      "https://i.ibb.co/5MHMTnF/React-App-1.png",
+    tags: ['React', 'Hook', 'Custom Hook',  'Jitsi Meet Lib'],
+    category: "ui-clone",
+    github: "https://github.com/Sukhendra523/google-clone",
+    webapp: "https://codesandbox.io/p/sandbox/github/Sukhendra523/google-clone/tree/master/",
+  },
+  {
+    id: 5,
+    title: "Netflix UI Clone",
+    date: "Aug 2023 - Sep 2023",
+    description:
+    'Netflix UI Clone using React Hook, Axios, and Themoviedb API.',
+    image:
+      "https://i.ibb.co/Tmnd715/Netflix-Clone.png",
+    tags: ['React', 'Hook', 'Custom Hook',  'Jitsi Meet Lib'],
+    category: "ui-clone",
+    github: "https://github.com/Sukhendra523/netflix-clone",
+    webapp: "https://netflix-clone-b1517.web.app",
   }
 ];
