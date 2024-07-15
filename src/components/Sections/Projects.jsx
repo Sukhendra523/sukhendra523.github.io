@@ -135,7 +135,6 @@ const Projects = ({ openModal, setOpenModal }) => {
           >
             ANDROID APP'S
           </ToggleButton>
-          <Divider />
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === "all" &&
