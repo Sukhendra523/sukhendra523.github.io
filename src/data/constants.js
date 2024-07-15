@@ -227,16 +227,16 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Google UI Clone",
-    date: "Jul 2023 - Aug 2023",
+    title: "Discover & Share AI-Prompts",
+    date: "Jul 2024 - Jul 2024",
     description:
-    'Google UI Clone using React Hook, Context API, and Google Custom Search API',
+    'Promtodia discover & share AI prompts using Next.js ',
     image:
-      "https://i.ibb.co/5MHMTnF/React-App-1.png",
-    tags: ['React', 'Hook', 'Custom Hook',  'Jitsi Meet Lib'],
+      "https://iili.io/dBO3XKQ.md.png",
+    tags: ['React', 'Hook', 'Custom Hook',  'Next.js'],
     category: "ui-clone",
-    github: "https://github.com/Sukhendra523/google-clone",
-    webapp: "https://codesandbox.io/p/sandbox/github/Sukhendra523/google-clone/tree/master/",
+    github: "https://github.com/Sukhendra523/discover-share-ai-prompts",
+    webapp: "https://discover-share-ai-prompts.vercel.app/",
   },
   {
     id: 5,
