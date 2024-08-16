@@ -109,13 +109,6 @@ const Projects = ({ openModal, setOpenModal }) => {
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
-            active={toggle === "all"}
-            onClick={() => setToggle("all")}
-          >
-            ALL
-          </ToggleButton>
-          <Divider />
-          <ToggleButton
             active={toggle === "react-app"}
             onClick={() => setToggle("react-app")}
           >
@@ -134,6 +127,13 @@ const Projects = ({ openModal, setOpenModal }) => {
             onClick={() => setToggle("android app")}
           >
             ANDROID APP'S
+          </ToggleButton>
+          <Divider />
+          <ToggleButton
+            active={toggle === "all"}
+            onClick={() => setToggle("all")}
+          >
+            ALL
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
