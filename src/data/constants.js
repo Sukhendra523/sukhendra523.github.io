@@ -24,7 +24,12 @@ export const skills = [
     title: "",
     skills: [
       {
-        name: "React Js",
+        name: "NextJs",
+        image:
+          "https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png",
+      },
+      {
+        name: "ReactJs",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -132,8 +137,8 @@ export const experiences = [
       "HTML",
       "SASS",
       "CSS",
-    ]
-  }
+    ],
+  },
 ];
 
 export const education = [
@@ -145,7 +150,7 @@ export const education = [
     grade: "92.3%",
     desc: `I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Dr. A.P.J. Abdul Kalam Technical University,Lucknow, Uttar Pradesh
     . I have completed 8 semesters. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. where I am learning and working on exciting projects with a team of talented developers.`,
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering"
+    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
     id: 1,
@@ -172,14 +177,9 @@ export const projects = [
     id: 0,
     title: "Advance Tic-Tac-Toe Game",
     date: "Jan 2024 - Feb 2024",
-    description:
-      "Advance Tic-Tac-Toe Game using React Hooks and Custom Hooks.",
-    image:
-      "https://iili.io/d9cwl1V.png",
-    tags: [
-      "React Hooks", 
-      "Custom Hooks"
-    ],
+    description: "Advance Tic-Tac-Toe Game using React Hooks and Custom Hooks.",
+    image: "https://iili.io/d9cwl1V.png",
+    tags: ["React Hooks", "Custom Hooks"],
     category: "react-app",
     github: "https://github.com/Sukhendra523/advance-tic-tac-toe",
     webapp: "https://sukhendra523.github.io/advance-tic-tac-toe",
@@ -190,11 +190,8 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Draggable Task Manger App using React Hooks, HTML5 Drag-Drop API and Context API",
-    image:
-      "https://iili.io/d9c8iCu.png",
-    tags: [
-      "React Hooks", "HTML5", "Drag-Drop API", "Context API"
-    ],
+    image: "https://iili.io/d9c8iCu.png",
+    tags: ["React Hooks", "HTML5", "Drag-Drop API", "Context API"],
     category: "react-app",
     github: "https://github.com/Sukhendra523/draggable-task-manager",
     webapp: "https://sukhendra523.github.io/draggable-task-manager/",
@@ -205,8 +202,7 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     description:
       "Draggable Sticky Notes App using React Hooks, HOC, HTML5 Drag-Drop API.    ",
-    image:
-      "https://iili.io/d9cSiNI.png",
+    image: "https://iili.io/d9cSiNI.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "react-app",
     github: "https://github.com/Sukhendra523/draggable-sticky-notes",
@@ -218,22 +214,20 @@ export const projects = [
     date: "Jun 2023 - Jul 2023",
     description:
       "Video Conference App using React Hook, Custom Hook, and Jitsi Meet Lib.",
-    image:
-      "https://i.ibb.co/CtrSBrD/React-App.png",
-    tags: ['React', 'Hook', 'Custom Hook',  'Jitsi Meet Lib'],
+    image: "https://i.ibb.co/CtrSBrD/React-App.png",
+    tags: ["React", "Hook", "Custom Hook", "Jitsi Meet Lib"],
     category: "react-app",
     github: "https://github.com/Sukhendra523/video-conference-app",
-    webapp: "https://codesandbox.io/p/sandbox/github/Sukhendra523/video-conference-app/tree/master/",
+    webapp:
+      "https://codesandbox.io/p/sandbox/github/Sukhendra523/video-conference-app/tree/master/",
   },
   {
     id: 4,
     title: "Discover & Share AI-Prompts",
     date: "Jul 2024 - Jul 2024",
-    description:
-    'Promtodia discover & share AI prompts using Next.js ',
-    image:
-      "https://iili.io/dBO3XKQ.md.png",
-    tags: ['React', 'Hook', 'Custom Hook',  'Next.js'],
+    description: "Promtodia discover & share AI prompts using Next.js ",
+    image: "https://iili.io/dBO3XKQ.md.png",
+    tags: ["React", "Hook", "Custom Hook", "Next.js"],
     category: "ui-clone",
     github: "https://github.com/Sukhendra523/discover-share-ai-prompts",
     webapp: "https://discover-share-ai-prompts.vercel.app/",
@@ -243,12 +237,11 @@ export const projects = [
     title: "Netflix UI Clone",
     date: "Aug 2023 - Sep 2023",
     description:
-    'Netflix UI Clone using React Hook, Axios, and Themoviedb API.',
-    image:
-      "https://i.ibb.co/Tmnd715/Netflix-Clone.png",
-    tags: ['React', 'Hook', 'Custom Hook',  'Jitsi Meet Lib'],
+      "Netflix UI Clone using React Hook, Axios, and Themoviedb API.",
+    image: "https://i.ibb.co/Tmnd715/Netflix-Clone.png",
+    tags: ["React", "Hook", "Custom Hook", "Jitsi Meet Lib"],
     category: "ui-clone",
     github: "https://github.com/Sukhendra523/netflix-clone",
     webapp: "https://netflix-clone-b1517.web.app",
-  }
+  },
 ];
