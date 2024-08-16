@@ -12,6 +12,7 @@ import Education from "./components/Sections/Education";
 import Contact from "./components/Sections/Contact";
 import Footer from "./components/Sections/Footer";
 import ProgressScrollButton from "./components/ProgressScrollButton";
+import ProjectDetails from "./components/ProjectDetails";
 
 const AppWrapper = styled.div`
   background: ${({ theme }) => theme.bg};
@@ -54,8 +55,13 @@ function App() {
               <Contact />
             </SectionWrapper>
             <Footer />
-            <ProgressScrollButton/>
-            
+            <ProgressScrollButton />
+            {openModal.state && (
+              <ProjectDetails
+                openModal={openModal}
+                setOpenModal={setOpenModal}
+              />
+            )}
           </BodyWrapper>
         </BrowserRouter>
       </AppWrapper>
