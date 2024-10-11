@@ -94,7 +94,29 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/D4D0BAQGe-ReYI3R2jA/company-logo_200_200/0/1688735422687/linksoft_technologies_logo?e=1726704000&v=beta&t=w4k0owQ6i9J8UM9zaPOrvrAjGbsvh7Ke3_sxGtXpvSQ",
+    img: "https://pbs.twimg.com/profile_images/1800075235510599680/iY86tLJp_400x400.jpg",
+    role: "Application Developer",
+    company: "Onity Group Inc.",
+    date: "Sept 2024 - Present",
+    desc: `
+    Develop features using JavaScript, ReactJS, Redux, HTML5, and CSS3. 
+    Enhanced code maintainability and efficiency by developing reusable UI components. 
+    Delivered high-quality, accessible, and cross-browser compatible user experiences. 
+    Collaborated with development, QA, design, and product teams to ensure timely project completion.`,
+    skills: [
+      "Front-End Development",
+      "ReactJS",
+      "Redux",
+      "HTML",
+      "ROR",
+      "SASS",
+      "Javascript",
+      "CSS",
+    ],
+  },
+  {
+    id: 0,
+    img: "https://static.wixstatic.com/media/548938_7317057a7506445e8a1062a5ddc2365f~mv2.png/v1/fill/w_160,h_55,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/LinkedIN-Profile-Picture%20(1).png",
     role: "Software Engineer",
     company: "Linksoft Technologies",
     date: "Apr 2022 - Jun 2024",
@@ -116,7 +138,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/C4D0BAQGhx3BT2qbuBw/company-logo_200_200/0/1630557911544?e=1726704000&v=beta&t=7Hn7bC_fGLi4ePZ8gt9QZKzqW6S8fdlCo4iV29K1Ass",
+    img: "https://www.itaims.com/media/search_images/Itaims-favicon-icon.png",
     role: "MERN Stack Developer",
     company: "ITaims",
     date: "Oct 2021 - Mar 2022",
